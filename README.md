@@ -1,9 +1,10 @@
 # Demo Application for Interview
 
 
+
 ## Table of contents
 * [Technology](#technology)
-* [Testing](#testing)
+
 
 
 ## Technology
@@ -14,5 +15,3 @@ Project is created with:
 
  
 
-## testing
-Endpoint urls for teseting
