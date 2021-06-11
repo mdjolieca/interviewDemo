@@ -9,8 +9,8 @@
 ## Technology
 Project is created with:
  - Spring Boot
- - Prostgres Databast
- Project can be run from IDE as a Spring Boot Application, database will be created and populated with some dummy data.
+ - Prostgres Database
+ - Project can be run from IDE as a Spring Boot Application, database will be created and populated with some dummy data.
 
  
 
