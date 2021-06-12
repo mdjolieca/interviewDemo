@@ -23,7 +23,7 @@ Apis for testing with default data
 
 provider apis
 <br/><br/>
-http://localhost:8080/api/v1/provider
+http://localhost:8080/api/v1/providers
 <br/><br/>
 http://localhost:8080/api/v1/providers/?id=CharlesDarwin
 <br/><br/>
