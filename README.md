@@ -1,6 +1,15 @@
 # Demo Application for Interview
 
+## Requirements
+You are in charge of developing the REST API of a simplified online medical appointment booking application. After careful analysis, you conclude that you will have to implement the following features:
 
+• A patient can search for the different providers of the clinic
+
+• A patient can look for the availabilities of a specific provider within a defined time interval (for instance, the availabilities of Dr. A between May 8th, 2019 and May 12th, 2019)
+
+• A patient can book an appointment with a provider by selecting one of their availabilities
+
+Implement a simplified REST API that will support the aforementioned features.
 
 ## Overview
 Project was created with:
