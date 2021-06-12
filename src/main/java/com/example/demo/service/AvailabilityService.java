@@ -54,14 +54,9 @@ public class AvailabilityService {
 
 		LocalDateTime availabilityStartDate = availability.getStartTime();
 		LocalDateTime availabilityEndDate = availability.getEndTime();
-		System.out.println("aStartDate " + availabilityStartDate);
-		System.out.println("aendDate " + availabilityEndDate);
 
-		if (((availabilityStartDate.equals(requestStartDate) || requestStartDate.isBefore(availabilityStartDate))
-				&& (availabilityEndDate.equals(requestStartDate) || requestStartDate.isBefore(availabilityEndDate)))
-				&& ((availabilityStartDate.equals(requestEndDate) || requestEndDate.isAfter(availabilityStartDate))
-						&& (availabilityEndDate.equals(requestEndDate)
-								|| requestEndDate.isAfter(availabilityEndDate)))) {
+		if (((requestStartDate.equals(availabilityStartDate) || requestStartDate.isBefore(availabilityStartDate))
+				&& (requestEndDate.equals(availabilityEndDate) || requestEndDate.isAfter(availabilityEndDate)))) {
 
 			return true;
 
